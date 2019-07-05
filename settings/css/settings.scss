@@ -106,7 +106,7 @@ input {
 .profile-settings-container {
 	display: inline-grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 0fr 0fr 0fr;
 }
 
 .personal-show-container {
@@ -133,7 +133,7 @@ select {
 	max-width: 1500px;
 	grid-template-columns:1fr 2fr 1fr;
 	.section {
-		padding: 10px 10px;
+		padding: 10px 2px;
 		border: 0;
 		h2 {
 			margin-bottom: 12px;
@@ -162,7 +162,7 @@ select {
 		}
 		.personal-settings-container {
 			grid-template-columns: 1fr 1fr;
-			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-rows: 0fr 0fr 0fr;
 		}
 		.profile-settings-container {
 			grid-template-columns: 1fr 1fr;
@@ -181,7 +181,7 @@ select {
 		}
 		.personal-settings-container {
 			grid-template-columns: 1fr 1fr;
-			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-rows: 0fr 0fr 0fr;
 		}
 		.profile-settings-container {
 			grid-template-columns: 1fr 1fr;
@@ -211,7 +211,7 @@ select {
 .personal-settings-container {
 	display: inline-grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 0fr 0fr 0fr;
 	&:after {
 		clear: both;
 	}
