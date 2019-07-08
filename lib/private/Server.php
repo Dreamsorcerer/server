@@ -1026,6 +1026,7 @@ class Server extends ServerContainer implements IServerContainer {
 				$c->query(SessionStorage::class)
 			);
 		});
+		$this->registerAlias(CsrfTokenManager::class, 'CsrfTokenManager');
 		$this->registerService(SessionStorage::class, function (Server $c) {
 			return new SessionStorage($c->getSession());
 		});
